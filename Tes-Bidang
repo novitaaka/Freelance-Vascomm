@@ -1,0 +1,79 @@
+Pengetahuan Umum
+a. user manual adalah sebuah dokumen teknis yang digunakan untuk memberian informasi mengenai penggunaan cara aplikasi atau sutu sistem  
+b. sofware spesification adalah menyatakan kebutuhan perangkat lunak sebagai hasil dari proses analisis yang dilakukan dalam konteks pengembangan.
+c. Encryption adalah proses teknis yang mengonversikan teks biasa secara bahasa manusia menjadi bahasa mesin.
+d. Database adalah sistem yang berfungsi sebagai mengumpulkan file, tabel, atau arsip yang terhubung dan disimpan dalam berbagai media elektronik.
+e. Repository adalah suatu tempat untuk menyimpan informasi digital yang didistribusikan dalam jaringan komputer untuk digunakan kembali.
+
+Microsoft Office 
+Tombol Backspace dapat digunakan untuk menghapus satu karakter di depan kursor, maka tombol Delete dapat digunakan untuk menghapus satu karakter di belakang kursor.
+Saat mengetik di tengah-tengah paragraf menggunakan Ms Worl, tiba-tiba huruf yang anda ketikkan menghapus huruf setelahnya secara otomatis. Kenapa hal tersebut dapat terjadi dan apa solusinya? 
+Jawabannya: karena terpencet huruf insert harus mengklik tombol insert.
+
+Kemampuan Teknis
+API adalah Application Programming Interface adalah kumpulan aturan / code yang membuat 2 program atau lebih dapat berkomunikasi. API menjadi jembatan antar sistem yang menghubungkan client (program yang membutuhkan data) dengan server (database).
+Request API adalah API yang dikirimkan pada server kemudian akan datang ke server dengan serangkaian panggilan.
+Buatlah informasi mengenai nama, usia, makanan favorit, dan riwayat pendidikan (SD-SMA) anda dalam format JSON: 
+{ 
+  "first_name" : "Novita",
+  "last_name" : "Kurniawati",
+  "Usia" : "25",
+  "riwayat_pendidikan" : [ 
+    {
+      "SD" : "SDN BandungRejo",
+      "SMP" : "SMPN 1 Mranggen",
+      "SMA" : "SMKN 7 Semarang"
+    }
+  ]
+}
+
+PEMBUATAN DOKUMEN
+OVERVIEW: Pembuatan yang dilakukan untuk transaksi sukses
+TUJUAN: - Agar transaksi yang gagal bisa melakukan transaksi dengan kode berikut
+TIPE Data:
+- String 
+- Numeric
+- Array
+Presence :
+200 
+- Tidak terjadi kesalahan, maka respon dari server akan berupa sebuah HTTP OK.
+kode_bank: parameter yang menjelaskan kode unik bank dengan type numeric
+rek_tujuan: paramater yang menjelaskan rekening yang bersangkutan type  numeric
+amount: jumlah uang yang terdebet type numeric
+notes: menjelaskan kebutuhan type string
+pin_transaksi: parameter password kode rahasia type numeric
+
+
+status: parameter merubah presence
+state atau pesan Anda setelah login
+message: parameter code sebuah pesan jika sukse tipe boolean
+transaction_detail: parameter bertingkat yang menjelaskan isi pesan struk koran type numeric, string.
+
+
+
+---
+####Dokumentasi perangkat lunak yang bagus
+##**Introduction**
+---
+####Software ini dibuat untuk meringankan beban manusia
+
+###**Fitur Utama**
+
+- Mendaftarkan pasien pada rumah sakit
+- Membayar biaya <em>perawatan</em>
+- <strong> Booking kamar rumah sakit </strong>
+- ~~Membeli obat~~
+
+**system Requirements**
+
+| Komponen  | versi |
+| -----     | ---   |
+| PHP       | 7.1   |
+| NodeJs    | 12.0  |
+| MariaDB   | 8.0   |
+
+|Versi PHP boleh tinggi
+
+
+
+
